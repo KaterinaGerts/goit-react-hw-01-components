@@ -1,5 +1,6 @@
 import defaultImage from './img.jpg';
 import s from 'components/Profile/Profile.module.css';
+import PropTypes from 'prop-types';
 
 export default function Profile({
   name,
@@ -8,6 +9,7 @@ export default function Profile({
   avatar = defaultImage,
   stats,
 }) {
+  console.log(stats);
   return (
     <div className={s.profile}>
       <div className={s.description}>
@@ -34,3 +36,11 @@ export default function Profile({
     </div>
   );
 }
+
+Profile.propTypes = {
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.object.isRequired,
+};
