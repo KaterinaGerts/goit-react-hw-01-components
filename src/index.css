@@ -1,4 +1,5 @@
 @import './components/Profile/Profile.module.css';
+@import './components/Statistics/Statistics.module.css';
 
 body {
   margin: 0;
