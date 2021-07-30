@@ -1,5 +1,6 @@
 @import './components/Profile/Profile.module.css';
 @import './components/Statistics/Statistics.module.css';
+@import './components/FriendList/FriendList.module.css';
 
 body {
   margin: 0;
