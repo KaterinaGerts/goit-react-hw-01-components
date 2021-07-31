@@ -1,6 +1,7 @@
 @import './components/Profile/Profile.module.css';
 @import './components/Statistics/Statistics.module.css';
 @import './components/FriendList/FriendList.module.css';
+@import './components/TransactionHistory/TransactionHistory.module.css';
 
 body {
   margin: 0;
